@@ -70,7 +70,7 @@ pbmc-scrna-analysis/
 - Low mitochondrial percentage (<5%)  
 - Indicates high-quality cells  
 
-![QC Plot](results/figures/violin_qc.png)
+![QC Plot](results/violin_qc.png)
 
 ---
 
@@ -79,7 +79,7 @@ pbmc-scrna-analysis/
 - Cells separate along principal components  
 - Captures biological variability  
 
-![PCA Plot](results/figures/pca_pca.png)
+![PCA Plot](results/pca_pca.png)
 
 ---
 
@@ -88,7 +88,7 @@ pbmc-scrna-analysis/
 - Clear cluster separation  
 - Each cluster represents a distinct cell population  
 
-![UMAP Clusters](results/figures/umap_umap_clusters.png)
+![UMAP Clusters](results/umap_umap_clusters.png)
 
 ---
 
@@ -101,7 +101,7 @@ pbmc-scrna-analysis/
 
 These confirm biologically meaningful clustering.
 
-![UMAP Markers](results/figures/umap_umap_markers.png)
+![UMAP Markers](results/umap_umap_markers.png)
 
 ---
 
@@ -110,7 +110,6 @@ These confirm biologically meaningful clustering.
 - Top genes distinguish clusters  
 - Provides functional insights  
 
-![Marker Genes](results/figures/rank_genes_groups_leiden_markers.png)
 
 ---
 
@@ -135,6 +134,9 @@ These confirm biologically meaningful clustering.
 - Low mitochondrial percentage  
 - Indicates good data quality  
 
+![Seurat UMAP Clusters](results/qc_violin.png)
+
+
 ---
 
 #### PCA
@@ -142,19 +144,26 @@ These confirm biologically meaningful clustering.
 - Captures major sources of variation  
 - Supports clustering  
 
+![Seurat Annotated UMAP](results/PCA_plot.png)
+
+
 ---
 
 #### UMAP Clustering
 
 - Distinct clusters observed  
-- Matches Scanpy clustering patterns  
+- Matches Scanpy clustering patterns
+
+  ![Seurat Markers](results/umap_clusters.png)
 
 ---
 
 #### Cell Type Annotation
 
 - Cluster 0 → T cells (CD3D)  
-- Cluster 1 → B cells (MS4A1)  
+- Cluster 1 → B cells (MS4A1)
+- 
+- ![Seurat Markers](results/umap_annotated.png)
 
 **Interpretation:**
 
